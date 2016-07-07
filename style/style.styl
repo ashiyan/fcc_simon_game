@@ -1,0 +1,115 @@
+// FONTS:
+@font-face
+	font-family "Rainyhearts"
+	font-style normal
+	src url(../fonts/Rainyhearts.ttf)
+
+	
+// COLORS:
+button_green = #59c364
+button_red = #be371e
+button_yellow = #cecb3c
+button_blue = #0192cc
+dark_gray = #333
+		
+
+// STYLES:
+.container
+	width 300px
+	height 300px
+	margin 30px auto
+	
+.circle
+	width 415px
+	height 415px
+	position relative
+	border-radius 50%
+	border 15px solid dark_gray
+	background-color dark_gray
+	overflow hidden
+	
+.btn
+.green
+.red
+.yellow
+.blue
+	position absolute
+	width 200px
+	height 200px
+	cursor pointer
+		
+.green
+	top 0
+	left 0
+	background-color button_green
+	
+.red
+	top 0
+	right 0
+	background-color button_red
+	
+.yellow
+	bottom 0
+	left 0
+	background-color button_yellow
+	
+.blue
+	bottom 0
+	right 0
+	background-color button_blue
+			
+.control_panel
+	top 0
+	bottom 0
+	left 0
+	right 0
+	margin auto
+	position absolute
+	width 190px
+	height 190px
+	border-radius 50%
+	border 5px solid dark_gray
+	background-color dark_gray
+	
+.grid
+	width 190px
+	height 190px
+	border-radius 50%
+	background url(../img/texture.png) no-repeat
+	background-size 100%
+	
+.logo
+	top 60px
+	left 0
+	right 0
+	margin 0 auto
+	position absolute
+	width 155px
+	
+.btn_start
+	top 120px
+	right 50px
+	position absolute
+	width 30px
+	height 30px
+	border none
+	outline none
+	border-radius 50%
+	cursor pointer
+	background-color #aa1717
+	
+.count
+	top 120px
+	left 40px
+	position absolute
+	width 35px
+	height 30px
+	border none
+	outline none
+	background-color darken(dark_gray, 30%)
+	font-family "Rainyhearts"
+	color #d3d3d3
+	text-align center
+	font-size 30px
+	-webkit-appearance none
+	box-shadow 0 0 5px rgba(0,0,0,.5) inset

@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "Rainyhearts";
+  font-style: normal;
+  src: url("../fonts/Rainyhearts.ttf");
+}
+.container {
+  width: 300px;
+  height: 300px;
+  margin: 30px auto;
+}
+.circle {
+  width: 415px;
+  height: 415px;
+  position: relative;
+  border-radius: 50%;
+  border: 15px solid #333;
+  background-color: #333;
+  overflow: hidden;
+}
+.btn,
+.green,
+.red,
+.yellow,
+.blue {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+.green {
+  top: 0;
+  left: 0;
+  background-color: #59c364;
+}
+.red {
+  top: 0;
+  right: 0;
+  background-color: #be371e;
+}
+.yellow {
+  bottom: 0;
+  left: 0;
+  background-color: #cecb3c;
+}
+.blue {
+  bottom: 0;
+  right: 0;
+  background-color: #0192cc;
+}
+.control_panel {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  border: 5px solid #333;
+  background-color: #333;
+}
+.grid {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  background: url("../img/texture.png") no-repeat;
+  background-size: 100%;
+}
+.logo {
+  top: 60px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+  width: 155px;
+}
+.btn_start {
+  top: 120px;
+  right: 50px;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #aa1717;
+}
+.count {
+  top: 120px;
+  left: 40px;
+  position: absolute;
+  width: 35px;
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: #242424;
+  font-family: "Rainyhearts";
+  color: #d3d3d3;
+  text-align: center;
+  font-size: 30px;
+  -webkit-appearance: none;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5) inset;
+}
