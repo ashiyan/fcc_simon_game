@@ -1,5 +1,5 @@
-## Build a Tribute Page
+## Build a Simon Game
 
-Part of freeCodeCamp challenge from section "Basic Front End Development Projects".
+Part of freeCodeCamp challenge from section "Advanced Front End Development Projects".
 
-Look it [here](http://ashiyan.github.io/fcc_norman_borlaug/).
+Look it [here](https://ashiyan.github.io/fcc_simon_game/).
